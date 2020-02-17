@@ -11,12 +11,12 @@ body{
     height: 100vh;
     overflow: hidden;
 }
-.image-1, .image-2, .image-3{
+.image{
     position: fixed;
     top: 500px;
     left: 150vw;
     width: 300px;
     height: auto;
     transform: translateX(-50%) translateY(-50%);
-    opacity: 0;
+    opacity: 1;
 }
