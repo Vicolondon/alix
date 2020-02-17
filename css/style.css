@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+.main-container{
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 0, 0);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.image-1, .image-2, .image-3{
+    position: fixed;
+    top: 500px;
+    left: 150vw;
+    width: 300px;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 0;
+}
